@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Meal</title>
+</head>
+<body>
+    <img src="images/Background.jpg" alt="Background Image" class="background-image">
+    <div class="main-container">
+        <div class="header-container">
+            <div class="header-content-block">
+                <a href="index.html" id="headerHomeLink">Home</a>
+            </div>
+            <div class="header-content-block">
+                <a href="favourite.html" id="headerFavourateLink">Favourite Meals</a>
+            </div>
+            <div class="header-content-grow"></div>
+        </div>
+        <div class="content-container meal">
+            <div class="content-top-container hide" id="contentTop">
+                <img src="images/meal-temp.svg" alt="Meal Image" class="content-top-meal-image" id="mealImage">
+                <div class="content-top-meal-main">
+                    <div class="meal-name" id="mealName"></div>
+                    <div class="meal-secondary-container">
+                        <div class="meal-secondary-item" id="mealDrinkAlternate"></div>
+                        <div class="meal-secondary-item" id="mealCategory"></div>
+                        <div class="meal-secondary-item" id="mealArea"></div>
+                    </div>
+                </div>
+                <div class="fav" id="favId">
+                    <i class="fa fa-heart"></i>
+                </div>
+            </div>
+            <div class="content-bottom-container hide" id="contentBottom">
+                <div class="content-bottom-selector">
+                    <div class="selector-item active" id="ingredientsSelector">Ingredients</div>
+                    <div class="selector-item" id="instructionsSelector">Instructions</div>
+                </div>
+                <div class="content-bottom-meal-container">
+                    <div class="meal-ingredients" id="ingredients">
+                        <div class="meal-ingredient" id="ingredient1"></div>
+                        <div class="meal-ingredient" id="ingredient2"></div>
+                        <div class="meal-ingredient" id="ingredient3"></div>
+                        <div class="meal-ingredient" id="ingredient4"></div>
+                        <div class="meal-ingredient" id="ingredient5"></div>
+                        <div class="meal-ingredient" id="ingredient6"></div>
+                        <div class="meal-ingredient" id="ingredient7"></div>
+                        <div class="meal-ingredient" id="ingredient8"></div>
+                        <div class="meal-ingredient" id="ingredient9"></div>
+                        <div class="meal-ingredient" id="ingredient10"></div>
+                        <div class="meal-ingredient" id="ingredient11"></div>
+                        <div class="meal-ingredient" id="ingredient12"></div>
+                        <div class="meal-ingredient" id="ingredient13"></div>
+                        <div class="meal-ingredient" id="ingredient14"></div>
+                        <div class="meal-ingredient" id="ingredient15"></div>
+                        <div class="meal-ingredient" id="ingredient16"></div>
+                        <div class="meal-ingredient" id="ingredient17"></div>
+                        <div class="meal-ingredient" id="ingredient18"></div>
+                        <div class="meal-ingredient" id="ingredient19"></div>
+                        <div class="meal-ingredient" id="ingredient20"></div>
+                    </div>
+                    <p class="meal-instructions hide" id="instructions"></p>
+                </div>
+            </div>
+        </div>
+        <div class="content-loader" id="pageLoader">
+            <img src="images/Loading.gif" alt="Loading">
+        </div>
+    </div>
+    
+    <script src="scripts/meal.js"></script>
+</body>
+</html>
